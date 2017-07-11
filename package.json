@@ -1,0 +1,27 @@
+{
+  "name": "sendero-quotes",
+  "version": "1.0.0",
+  "description": "Get random quotes from the book El sendero de la mano izquierda",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jpcano/sendero-quotes.git"
+  },
+  "keywords": [
+    "random",
+    "sendero",
+    "drago"
+  ],
+  "author": "Jesus Cano <jcanovel@gmail.com> (http://jesus.engineer/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jpcano/sendero-quotes/issues"
+  },
+  "homepage": "https://github.com/jpcano/sendero-quotes#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
