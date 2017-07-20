@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array')
-var senderoQuotes = require('./sendero-quotes.json')
+import uniqueRandomArray from 'unique-random-array'
+import senderoQuotes from './sendero-quotes.json'
+
 var getRandomItem = uniqueRandomArray(senderoQuotes)
 
 module.exports = {

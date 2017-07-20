@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var sendero = require('./index');
+import {expect} from 'chai'
+import sendero from './index'
 
 describe('sendero-quotes', function() {
     describe('all', function () {
