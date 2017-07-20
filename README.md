@@ -12,11 +12,14 @@ This is a toy project that can be used as a starting point for other projects. I
 - Transipilation of ES6 code with **babel**
 - Tests with **mocha** and **chai**
 - Coverage with **nyc**
+- Coverage reports to **codecov.io**
+- Continuous integration with **Travis**
 - Preformated commits with **commitizen** and the CLI **cz-conventional-changelog**
 - Pre commit git hooks with **husky**
 - Automated npm package release and versioning with **semantic-release**
 - Browser build with **webpack**
+- Different **badges** in the Readme file.
 
-It was inspired by this excellent [course](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-automatically-running-tests-before-commits-with-ghooks) by egghead.io.
+It was inspired by this excellent [course](https://egghead.io/courses/how-to-write-an-open-source-javascript-library) by egghead.io.
 
-The module expose a function *random(n)* that returns n random quotes from the book "El sendero de la mano izquierda" by the spanish writer Fernando Sánchez Dragó. A book I recommend you.
+The module exposes the function *random(n)* which returns n random quotes from the book "El sendero de la mano izquierda" by the spanish writer Fernando Sánchez Dragó.
